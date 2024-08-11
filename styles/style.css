@@ -1,0 +1,101 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+
+}
+div{
+    /* border: 2px dotted red; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffbf0;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+.navImage img{
+    width: 291.11px;
+height: 39.27px;
+margin-left: 50px;
+}
+.navbarContent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    margin-right: 50px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerImage img{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+
+.bannerImage {
+    background-image: url('/Logo/Group33091.png'); /* Path to your image */
+    background-size: cover; /* Makes the background cover the entire div */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 300px;
+    height: 300px;
+   
+}
+.womenCard{
+    margin: 0 auto;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    
+}
+.card{
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+}
+.btnPriece{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.comminucation{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-top: 200px;
+}
+.cardFind{
+    display: flex;
+    align-items: center;
+}
+.cardFind img{
+    width: 70px;
+    height: 70px;
+}
+.commImage img{
+    width: 599px;
+    height: 354.07px;
+    left: 49.1%;
+    right: 9.31%;
+    top: 79.42%;
+    bottom: 8.39%;
+}
